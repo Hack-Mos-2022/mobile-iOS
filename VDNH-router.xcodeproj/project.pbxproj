@@ -29,6 +29,9 @@
 		5940CEA12916C0D6009ED4B7 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 5940CEA02916C0D6009ED4B7 /* MapboxMaps */; };
 		5940CEA42916F475009ED4B7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940CEA32916F475009ED4B7 /* MapViewController.swift */; };
 		5940CEA62916F4A0009ED4B7 /* MapBoxMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5940CEA52916F4A0009ED4B7 /* MapBoxMapView.swift */; };
+		596233A62918325300DB5E90 /* VDNHDataSet.json in Resources */ = {isa = PBXBuildFile; fileRef = 596233A52918325300DB5E90 /* VDNHDataSet.json */; };
+		596233A8291832B100DB5E90 /* VDNH_DataSet_Addition.json in Resources */ = {isa = PBXBuildFile; fileRef = 596233A7291832B100DB5E90 /* VDNH_DataSet_Addition.json */; };
+		596233AA291832F300DB5E90 /* places.js in Resources */ = {isa = PBXBuildFile; fileRef = 596233A9291832F300DB5E90 /* places.js */; };
 		596A7B92290EBFD700911342 /* AllVDNHModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596A7B91290EBFD700911342 /* AllVDNHModels.swift */; };
 		596A7B94290F048A00911342 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596A7B93290F048A00911342 /* SearchView.swift */; };
 		59A6B65B290E8D8E0016091D /* VDNH_routerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A6B65A290E8D8E0016091D /* VDNH_routerApp.swift */; };
@@ -66,6 +69,9 @@
 		59201D4E2915CBBC001526E2 /* FoodPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPlace.swift; sourceTree = "<group>"; };
 		5940CEA32916F475009ED4B7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		5940CEA52916F4A0009ED4B7 /* MapBoxMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBoxMapView.swift; sourceTree = "<group>"; };
+		596233A52918325300DB5E90 /* VDNHDataSet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VDNHDataSet.json; sourceTree = "<group>"; };
+		596233A7291832B100DB5E90 /* VDNH_DataSet_Addition.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VDNH_DataSet_Addition.json; sourceTree = "<group>"; };
+		596233A9291832F300DB5E90 /* places.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = places.js; sourceTree = "<group>"; };
 		596A7B91290EBFD700911342 /* AllVDNHModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllVDNHModels.swift; sourceTree = "<group>"; };
 		596A7B93290F048A00911342 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		59A6B657290E8D8E0016091D /* VDNH-router.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VDNH-router.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +151,16 @@
 			path = Map;
 			sourceTree = "<group>";
 		};
+		596233A4291831BF00DB5E90 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				596233A52918325300DB5E90 /* VDNHDataSet.json */,
+				596233A7291832B100DB5E90 /* VDNH_DataSet_Addition.json */,
+				596233A9291832F300DB5E90 /* places.js */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		59A6B64E290E8D8E0016091D = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +180,7 @@
 		59A6B659290E8D8E0016091D /* VDNH router */ = {
 			isa = PBXGroup;
 			children = (
+				596233A4291831BF00DB5E90 /* Data */,
 				59A6B6B4290EB9B90016091D /* VDNH-router-Info.plist */,
 				59A6B66A290E90780016091D /* Model */,
 				59A6B669290E90730016091D /* View */,
@@ -300,10 +317,13 @@
 			files = (
 				59A6B687290EB4480016091D /* Gilroy-Regular.ttf in Resources */,
 				59A6B688290EB4480016091D /* Gilroy-SemiBold.ttf in Resources */,
+				596233A8291832B100DB5E90 /* VDNH_DataSet_Addition.json in Resources */,
 				59A6B685290EB4480016091D /* Gilroy-Bold.ttf in Resources */,
 				59A6B686290EB4480016091D /* Gilroy-Medium.ttf in Resources */,
+				596233AA291832F300DB5E90 /* places.js in Resources */,
 				59A6B663290E8D8E0016091D /* Preview Assets.xcassets in Resources */,
 				59A6B65F290E8D8E0016091D /* Assets.xcassets in Resources */,
+				596233A62918325300DB5E90 /* VDNHDataSet.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,58 @@
+
+ссылка на файл с JSON мест: https://vdnh.ru/local/js/vdnh_events/places.js
+
+places : {
+	242 : { //id места в качестве ключа
+		"type": "Feature", //системное свойство mapbox
+		"id": 242, //id места (Feature) (на сайте ВДНХ ID элемента инфоблока places)
+		"order": 250, //сортировка места
+		"geometry": {
+			"type": "Point", //системное свойство mapbox
+			"coordinates": [ //координаты места на карте
+				37.63190639,
+				55.83163773
+			]
+		},
+		"properties": { // свойства места 
+			"cat": "place", // каталог, тип карты (на сайте ВДНХ есть каталоги места и события)
+			"visibility": "visible", //системное свойство mapbox
+			"zoom": 16, //зум при активации места
+			"order": "250", //сортировка
+			"_order": "250", //сортировка
+			"id": 242, //id места (Feature) (на сайте ВДНХ ID элемента инфоблока places)
+			"color": "#336AF7", //цвет иконки HEX
+			"color_code": "blue", //цвет иконки Color Names
+			"show_title": "Павильон №66. Выставочно-культ...", //Название места
+			"map_title": "Павильон №66. Выставочно-культ...", //Название места
+			"exclude": false, //системное свойство mapbox
+			"title": "Павильон №66. Выставочно-культурный и экспозиционный центр Республики Узбекистан ", //Название места
+			"title_s1": "Павильон №66. Выставочно-культурный и экспозиционный центр Республики Узбекистан ", //Название места RU
+			"title_en": "Pavilion No. 66 Exhibition and Culture Centre of the Republic of Uzbekistan ", //Название места EN
+			"title_cn": "第66号展馆 乌兹别克斯坦共和国文化展览中心", //Название места CN
+			"time": "", // Время работы
+			"type": "Павильон", //Тип места название
+			"type_s1": "Павильон", //Тип места название RU
+			"type_en": "Pavilion", //Тип места название EN
+			"type_cn": "亭", //Тип места название CN
+			"icon": "pavilion", //Код иконки для типа места
+			"_icon": "pavilion", //Код иконки для типа места
+			"map_icon": 194, //ID иконки
+			"s_icon": "fountain", //Иконка по умолчанию
+			"_url": "/places/pavilon-66-sovetskaya-kultura-byvshiy-uzbekskaya-ssr/", //Ссылка на карточку места на сайте ВДНХ
+			"url": "/places/pavilon-66-sovetskaya-kultura-byvshiy-uzbekskaya-ssr/", //Ссылка на карточку места на сайте ВДНХ
+			"pic": "/upload/resize_cache/iblock/7be/92_92_2/7be9c2adac574b1c1e91d489f761d3ea.JPG", //URL картинки места
+			"tickets_link": "https://vdnh.ru/selections/kupit-bilet/?show_ticket_widget=Y&tickets=13291,20683,20682,20681,19850", //ссылка на билетный виджет на сайте ВДНХ
+			"coordinates": [ //координаты места на карте 
+				37.63190639,
+				55.83163773
+			],
+			"attractions": [ //id ближайших мест для рекоммендации
+				3494,
+				3497,
+				3499
+			],
+			"visible": true //Флаг видимости места на карте. true - место отображается на карте, false - не отображается
+			"active" : false //Флаг активности места. Иконка места выделяется как активная
+		}
+	}
+}
